@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KINGDOM</title>
+    <link href='images/thecrown.png'type="image"rel="icon">
+    <link rel="stylesheet" href="game.py" />
+
+</head>
+<body>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&display=swap');
+        #crown{
+            width: 80px;
+            float:left;
+            padding-top:35px;
+            padding-bottom: 10px;
+        }
+
+        .heading{
+            margin-top: 12px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            font-family: "dancing script";
+            font-size: 30px;
+            background-color: black;
+            color:white;
+
+        }
+
+
+
+        #movE:hover{
+            background-color: white
+            
+
+        }
+
+
+        #movE{
+            width: 100px;
+            padding-left: 0px;
+            margin-left: 20px;
+            border-left: 12px;
+            border-radius: 10px;
+
+
+            background-color: #756f1931;
+            transition: all 0.2s linear;
+            
+            
+
+        }
+
+        body{
+            margin:0
+        }
+
+
+
+
+
+
+
+        #aboutmea{
+            width: 130px;
+            padding-left: 0px;
+            margin-left: 0px;
+            border-left: 12px;
+
+
+            background-color: #756f1931;
+            transition: all 1s linear;
+            border-radius: 10px;    
+
+
+        }
+
+
+        #aboutmea:hover{
+            background-color: rgb(255, 255, 255);
+
+
+
+        }
+
+
+        .head1{
+
+            font-size: 3em;
+            left:0px;
+
+
+            font-family:'lobster';
+            
+            background-image: url('images/backgroundt.jpg');
+            background-repeat: no-repeat, repeat;
+            background-size: cover;
+            
+            background-position: center;
+            
+            
+            
+           
+           
+
+
+
+
+
+
+        }
+
+
+        .head1{
+        display: inline-block;
+        position: absolute;
+         color: #ffffff;
+         padding:0em;
+         padding-right: 7em;
+         padding-left: 10em;
+         padding-bottom: 100px;
+         font-size: 44px;
+         left:0px;
+}
+
+
+.head1:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 10px;
+  bottom: 0;
+  left: 0px;
+  background-color: #ffffff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+
+.head1:hover:after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+
+
+
+
+
+    </style>
+    <div class ='navebar'>
+
+    <div>
+        <img id = "crown"src="images/thecrown.png" alt="">
+    </div>
+    <div class = "heading">
+        <h2>My Kingdom</h2>
+        <div>        <a href="index.html"><img id = 'movE'src="images/home.png" alt="homepage"></a>
+            <a href="movie.html"><img id = 'movE'src="images/movei.png" alt="movie and tv"></a>
+            <a href="song.html"><img id = 'movE'src="images/songsimg.png" alt="songs"></a>
+            <a href="aboutme.html"><img id = 'aboutmea'src="images/againabout.png" alt="about me"></a>
+
+        </div>
+
+
+
+    </div>
+
+
+    <div class = "head1">
+
+        <h1>Welcome to my website</h1>
+    
+      </div>
+
+
+
+    <div class = "head2">
+
+   
+
+
+
+        
+
+    </div>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

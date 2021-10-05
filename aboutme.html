@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href='images/thecrown.png'type="image"rel="icon">
+</head>
+<body>
+
+
+
+
+    <style>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+        #crown{
+            width: 80px;
+            float:left;
+            padding-top:35px;
+            padding-bottom: 10px;
+        }
+
+
+
+        .heading{
+            margin-top: 12px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            font-family: "dancing script";
+            font-size: 30px;
+            background-color: black;
+            color:white;
+
+        }
+
+        #movE{
+            width: 100px;
+            padding-left: 0px;
+            margin-left: 20px;
+            border-left: 12px;
+            border-radius: 10px;
+
+
+            background-color: #756f1931;
+            transition: all 1s linear;
+            
+            
+
+        }
+
+        body{
+            margin:0
+        }
+
+
+        
+
+
+
+        #movE:hover{
+            background-color: rgb(254, 255, 177)
+            
+
+        }
+
+
+        
+        #aboutmea{
+            width: 130px;
+            padding-left: 0px;
+            margin-left: 20px;
+            border-left: 12px;
+            right:50%;
+
+
+            background-color: #756f1931;
+            transition: all 1s linear;
+            border-radius: 10px;    
+
+
+        }
+
+
+
+
+
+#aboutme{
+    width: 500px;
+padding-left:200px;
+padding-top: 100px;
+padding-right: 250px;
+background-color:rgb(209, 190, 18);
+
+transition: all 1s linear;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+#aboutme:hover{
+            background-color: rgb(255, 255, 255);
+        }
+
+
+
+.head0{
+        display: inline-block;
+        position: relative;
+         color: #b6ca00;
+}
+
+
+.head0:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #c5d11c;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+
+.head0:hover:after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+
+
+    </style>
+
+
+    
+
+
+
+
+<div class ='navebar'>
+
+    <div>
+        <img id = "crown"src="images/thecrown.png" alt="">
+    </div>
+    <div class = "heading">
+        <h2>My Kingdom</h2>
+        <div>        <a href="index.html"><img id = 'movE'src="images/home.png" alt="homepage"></a>
+            <a href="movie.html"><img id = 'movE'src="images/movei.png" alt="movie and tv"></a>
+            <a href="song.html"><img id = 'movE'src="images/songsimg.png" alt="songs"></a>
+            <a href="aboutme.html"><img id = 'aboutmea'src="images/againabout.png" alt="about me"></a>
+
+        </div>
+
+
+
+    </div>
+
+
+    <div class ="head0">
+        <h1>aboutme</h1>
+    </div>
+
+
+
+
+
+    
+</body>
+</html>
